@@ -7,7 +7,7 @@ from asSQL import Client as cl
 from .is_admin import admin,add_msg,owner
 data = cl("protect")
 db = data['data']
-import speech_recognition as sr
+import telebot
 import subprocess
 
 def transcribe_audio(audio_file_path):
